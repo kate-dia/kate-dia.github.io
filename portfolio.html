@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Kateryna Diachuk</title>
+
+    <!-- Google Fonts: Fraunces + Space Grotesk + JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ========================================================
+         HEADER
+    ========================================================= -->
+    <header>
+        <div class="header-inner">
+            <div class="site-logo">
+                Kateryna Diachuk
+                <span>Computer Science & Management Student</span>
+            </div>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========================================================
+         MAIN CONTENT
+    ========================================================= -->
+    <main>
+
+        <!-- Page Banner -->
+        <section class="page-banner" aria-label="Page title">
+            <span class="section-label">My Work</span>
+            <h1>Projects</h1>
+        </section>
+
+        <!-- Portfolio Projects Section -->
+        <section class="section-pad" aria-label="Project showcase">
+            <div class="container">
+
+                <header class="section-header">
+                    <span class="section-label">Work</span>
+                    <h2>Recent Projects</h2>
+                    
+                </header>
+
+                <article class="portfolio-grid">
+
+                    <!-- Project 1 -->
+                    <section class="project-card" aria-label="Project: Portfolio Website">
+                        <div class="project-info">
+                            <span class="project-tag">Web Development &bull; 2026</span>
+                            <h3>Personal Portfolio Website</h3>
+                            <p class="role">Developer &amp; Designer</p>
+                            <p>
+                                This site &mdash; a multi-page portfolio designed and built from scratch with semantic HTML5 and CSS3, using Flexbox and Grid layouts and a custom design system.
+                                
+                            </p>
+                            
+                        </div>
+                        <figure class="project-img">
+                            <img src="images/porfolioproject.png" alt="Portfolio website ">
+                        </figure>
+                    </section>
+
+                    <!-- Project 2 -->
+                    <section class="project-card" aria-label="Project: Typing Race Simulator">
+                        <div class="project-info">
+                            <span class="project-tag">Java &bull; OOP &bull; 2026</span>
+                            <h3>Typing Race Simulator</h3>
+                            <p class="role">Developer</p>
+                            <p>
+                                A typing race simulation built in Java with both a command-line
+                                and a full GUI version using Java Swing. Features customisable
+                                typists, live race animation, statistics tracking, a leaderboard
+                                with badges, and a sponsor system. Built with OOP principles,
+                                a 28-test suite, and Git version control with branching.
+                            </p>
+                            <p>
+                                <a href="https://github.com/kate-dia/TypingRaceSimulator"
+                                   target="_blank" rel="noopener">View on GitHub &rarr;</a>
+                            </p>
+                        </div>
+                        <figure class="project-img">
+                            <div class="carousel">
+                                <div class="carousel-track">
+                                    <img src="images/typing-race-setup.png" alt="Typing race simulator - setup screen">
+                                    <img src="images/typing-race-go.png" alt="Typing race simulator - race in progress">
+                                    <img src="images/typing-race-results.png" alt="Typing race simulator - race results">
+                                    <img src="images/typing-race-stats.png" alt="Typing race simulator - statistics and leaderboard">
+                                </div>
+                            </div>
+                        </figure>
+                    </section>
+
+                    <!-- Project 3 -->
+                    <section class="project-card" aria-label="Project 3">
+                        <div class="project-info">
+                            <span class="project-tag">Computer Science NEA &bull; 2024-2025</span>
+                            <h3>Facial Recognition Attendance System</h3>
+                            <p class="role">Developer</p>
+                            <p>
+                                Built a prototype automated sign-in system for my A-Level NEA, using OpenCV for facial recognition, SQLite for attendance records, PyQt5 for the desktop app, and Flask for the web front-end.
+                            </p>
+                            
+                        </div>
+                        <figure class="project-img">
+                            <div class="carousel">
+                                <div class="carousel-track">
+                                    <img src="images/camera-feed.png" alt="Facial recognition system - camera feed">
+                                    <img src="images/flask-login.png" alt="Facial recognition system - flask-login">
+                                    <img src="images/signed-out-status.png" alt="Facial recognition system - attendance log">
+                                    
+                                </div>
+                            </div>
+                        </figure>
+
+
+                    </section>
+                            
+                        
+                  
+
+                    <!-- Project 4 -->
+                    <section class="project-card" aria-label="Project 4">
+                        <div class="project-info">
+                            <span class="project-tag"> Cyber EPQ &bull; 2024 </span>
+                            <h3>Digital Forensics</h3>
+                            <p class="role">Researcher</p>
+                            <p>
+                                Completed ten cybersecurity modules and wrote a 5,000-word research dissertation on digital forensics methodologies, achieving an A*.
+                            </p>
+                            
+                        </div>
+                       
+                    </section>
+
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========================================================
+         FOOTER
+    ========================================================= -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <h3>Kateryna Diachuk</h3>
+                <p>Computer Science  & Management Student<br>Queen Mary University of London</p>
+            </div>
+            <nav class="footer-nav" aria-label="Footer navigation">
+             
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer-copy">
+                <p>&copy; 2026 Kateryna Diachuk. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

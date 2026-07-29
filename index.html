@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Kateryna Diachuk </title>
+
+    
+    <!-- Google Fonts: Fraunces + Space Grotesk + JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ========================================================
+         HEADER — Site identity and main navigation
+    ========================================================= -->
+    <header>
+        <div class="header-inner">
+            <div class="site-logo">
+                Kateryna Diachuk
+                <span>Computer Science & Management Student</span>
+            </div>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html" class="active">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========================================================
+         MAIN CONTENT
+    ========================================================= -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" aria-label="Introduction">
+            <!-- Profile card (left) -->
+            <aside class="hero-card" aria-label="Profile card">
+                <figure>
+                    <div class="profile-image-wrap">
+                        
+                        <img src="images/profile-pic.png" alt="Kateryna Diachuk">
+                    </div>
+                    <figcaption class="hero-card-name">
+                        <h2>Kateryna Diachuk </h2>
+                        <div class="hero-card-divider"></div>
+                        <p class="hero-card-role">BSc Computer Science with Management</p>
+                    </figcaption>
+                </figure>
+                <div class="hero-social">
+                    <a href="mailto:katediachuk3@gmail.com" aria-label="Email">Email</a>
+                    <a href="https://www.linkedin.com/in/kateryna-diachuk-500a9a2b8?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BsQAGNJKYS2mbx2d9ATpIKA%3D%3D" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="https://github.com/kate-dia" target="_blank" aria-label="GitHub">GitHub</a>
+                </div>
+            </aside>
+
+            <!-- Hero text content (right) -->
+            <div class="hero-content">
+                <span class="label">Hello, I'm</span>
+                <h1>Kateryna <br><em style="font-style: italic; color: var(--burgundy);">Diachuk</em></h1>
+                <p class="sub">Here's who I am &amp; what I do</p>
+                <p>
+                    I'm a second-year Computer Science &amp; Management student at Queen Mary
+                    University of London, working at the intersection of technology, business,
+                    and design. I like taking an idea and carrying it the whole way &mdash; from
+                    a sketch in Figma to working, tested code.
+                </p>
+                <div class="hero-buttons">
+                    <a href="portfolio.html" class="btn-primary">View Projects</a>
+                    <a href="skills.html" class="btn-outline">My Skills</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Snapshot Section -->
+        <section class="about-section" aria-label="About me overview">
+            <div class="about-inner">
+                <article class="about-text">
+                    <header class="section-header">
+                        <span class="section-label">About Me</span>
+                        <h2>A Little About Myself</h2>
+                    </header>
+                    <p>
+                        I'm originally from Kyiv, Ukraine. When the war began I moved to the UK to
+                        finish school, and that's where my interest in computer science and design
+                        first took hold. I'm now in London studying at Queen Mary University, where
+                        I finished my first year with a 75% average and built a foundation across
+                        programming, networks, web technologies, and economics.
+                    </p>
+                    <p>
+                        Outside of my degree, I trained as a professional dancer and still take
+                        masterclasses at London dance academies. I travel whenever I can and keep
+                        active through sport. I'm always looking for the next opportunity to grow &mdash;
+                        technically and creatively.
+                    </p>
+                    <br>
+                    <a href="education.html" class="btn-outline">Education</a>
+                </article>
+                <!-- Quick stats -->
+                <div class="about-stats" aria-label="Quick statistics">
+                    <div class="stat-box">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">75%</span>
+                        <span class="stat-label">First-Year Average</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">2nd</span>
+                        <span class="stat-label">Year of Study</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">QMUL</span>
+                        <span class="stat-label">University</span>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <!-- Recent Experience Preview -->
+        <section class="section-pad" aria-label="Recent experience">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-label">Experience</span>
+                    <h2>What I've Been Up To</h2>
+                </header>
+
+                <article class="card">
+                    <div class="card-date">2025 — Present</div>
+                    <div class="card-body">
+                        <h3>Computer Science & Management Student</h3>
+                        <p class="company">Queen Mary University of London &bull; London, UK</p>
+                        <p>
+                            Completed first year with a 75% average across modules including
+                            Object-Oriented Programming in Java, Fundamentals of Web Technology,
+                            Computer Systems and Networks, and Economics for Business. Now entering
+                            second year, studying Software Engineering, Database Systems, and
+                            Financial Markets and Securities.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-date">2025 - Present </div>
+                    <div class="card-body">
+                        <h3>Designer (Web + Graphic)</h3>
+                        <p class="company">Elane &bull; Remote</p>
+                        <p>
+                            Designed 200+ web layouts in Figma and collaborated with a cross-functional team of five to build a shared design system, cutting revision cycles by 30%.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========================================================
+         FOOTER
+    ========================================================= -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <h3>Kateryna Diachuk</h3>
+                <p>Computer Science & Management Student<br>Queen Mary University of London</p>
+            </div>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                
+                <ul>
+                    <li><a href="index.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer-copy">
+                <p>&copy; 2026 Kateryna Diachuk. All rights reserved.</p>
+                
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+/* Reset CSS remove browser default styling */
+
+html, body, header, nav, article, section, footer, aside,  h1, h2,h3,h4, p, ul, li, a, figure, figcaption, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Reset list styles */
+ul {
+    list-style: none;
+}
+
+/* Reset link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
